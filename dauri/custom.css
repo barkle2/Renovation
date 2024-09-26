@@ -1,0 +1,78 @@
+@CHARSET "UTF-8";
+
+.helpdesk_info {clear: both;padding: 12px;border: 4px solid #293b51;}
+.helpdesk_info h3 {  padding: 7px;background: #293b51; font-size: 12px; color: #fff; font-weight: bold;}
+.helpdesk_view { width: 100%;    margin: 2px 0;    border-left: 1px solid #ccc;}
+.helpdesk_view th {border-bottom: 1px solid #ccc;    color: #494949;    font-size: 11px;    font-weight: bold;    padding: 6px 3px 6px 3px;    white-space: normal;    text-align: center;    line-height: 100%;    background-color: #f0f0f0;}
+.helpdesk_view td {border-right: 1px solid #ccc;    border-bottom: 1px solid #ccc;    color: #393939;    font-weight: normal;    padding: 6px 3px 6px 10px;    white-space: normal;    text-align: center;    line-height: 120%;}
+.helpdesk_info .btnArea {    text-align: right;    padding: 6px 3px 6px 10px;}
+
+.link_area1{width:250px;padding:12px;border:4px solid #293b51;position:relative;background:#fff}
+.link_area1 h3{padding:7px;background:#293b51;font-size:12px;color:#fff;font-weight:bold; }
+.link_area1 p{background-color:#e8e8e8;font-size:11px;line-height:16px;padding:10px;}
+.link_area1 table{width:100%}
+.link_area1 td{border-bottom:1px solid #ccc;padding:4px 5px 4px 10px;line-height:22px;}
+.link_area1 a {color:#333}
+.link_area1 .btnArea{text-align:center;padding:5px}
+
+.link_area2 {clear:both;padding:12px;border:4px solid #293b51}
+.link_area2 h3{padding:7px;background:#293b51;font-size:12px;color:#fff;font-weight:bold; }
+.link_area2 p{background-color:#e8e8e8;font-size:11px;line-height:16px;padding:10px;}
+.link_area2 .tb1{width:248px}
+.link_area2 .tb1 td{height:23px;padding:0 3px;border:1px solid #ccc;font-size:11px;font-weight:bold;text-align:center}
+.link_area2 .tb1 td select{min-width: 10px;width: 100%;}
+.link_area2 .tb1 td img{vertical-align:middle;background:#fff}
+.link_area2 .tb1 tr.absence td{color:#7f7e7e}
+.link_area2 .tb1.fn td.head{font-weight:normal}
+.link_area2 .tb1.fn td.body{font-weight:normal;background:#fff}
+.link_area2 .btnArea{text-align:center;padding:5px;}
+
+/* 나의 게시판 설정 */
+.set_board{width:873px;/*height:489px;*/padding:30px;border:6px solid #293b51;background:#fff}
+.set_board .tit_b_set{height:28px;padding:0 10px;background:#293b51;font-size:12px;color:#fff;font-weight:bold;line-height:28px}
+.set_board .setting{*zoom:1}
+.set_board .setting:after{display:block;clear:both;content:""}
+.set_board .setting .set_tab01,
+.set_board .setting .set_tab02,
+.set_board .setting .set_tab03,
+.set_board .setting .set_tab04
+{ width:429px;margin-top:8px;color:#fff;background:url("") no-repeat 0 0;border-left:0;*zoom:1}
+.set_board .setting .set_tab01_active,
+.set_board .setting .set_tab02_active,
+.set_board .setting .set_tab03_active,
+.set_board .setting .set_tab04_active
+{ width:429px;margin-top:8px;color:#fff;background:url("") no-repeat 0 0;border-left:0;*zoom:1}
+.set_board .setting .set_tab01:after,
+.set_board .setting .set_tab02:after,
+.set_board .setting .set_tab03:after,
+.set_board .setting .set_tab04:after{display:block;clear:both;content:""}
+.set_board .setting .set_tab01,
+.set_board .setting .set_tab03{float:left}
+.set_board .setting .set_tab02,
+.set_board .setting .set_tab04{float:right}
+.set_board .setting div div{float:left;width:107px;height:29px;text-align:center;line-height:31px;color: #555;}
+.set_board .setting div div.set_tab01_hover{color:#fff;background:#293b51;float:left;width:107px;height:29px;text-align:center;line-height:31px;font-weight:bold}
+.set_board .tit_b_list{height:28px;margin-top:20px;padding:0 10px;background:#777777;font-size:12px;color:#fff;font-weight:bold;line-height:28px}
+.set_board .tit_b_list .desc{font-size:11px;color:#fff;font-weight:normal;line-height:28px}
+.set_board .b_list{*zoom:1}
+.set_board .b_list:after{display:block;clear:both;content:""}
+.set_board .b_list h4{color:#595959;padding:12px 0 1px 10px;}
+.set_board .b_list .list_tab01,
+.set_board .b_list .list_tab02,
+.set_board .b_list .list_tab03,
+.set_board .b_list .list_tab04,
+.set_board .b_list .list_tab05{float:left}
+.set_board .b_list .list_tab01,
+.set_board .b_list .list_tab02,
+.set_board .b_list .list_tab03,
+.set_board .b_list .list_tab04{padding-right:3px}
+.set_board .b_list div div{width:172px;height:27px;margin-top:4px;background-color:#efefef;color:#3b3b3b;text-align:center;line-height:27px;cursor:pointer}
+.set_board .b_list .on{color:#9d9d9d}
+.set_board .set_btn{padding-top:20px;text-align:right}
+
+.btnAllPop {position:relative; display:inline-block; color:inherit; text-align:center; border:1px solid transparent; border-radius:2px; background:none; background-image:none; text-transform:uppercase; white-space:nowrap; cursor:pointer; transition:all 0.3s; -webkit-transition:all 0.3s; -moz-transition:all 0.3s; -ms-transition:all 0.3s;min-width:50px; padding:5px 5px 3px; line-height:15px; font-size:11px;font-family:'NanumG'; margin:0px 0px 0px 5px;background-color:#2264bb; border-color:#2e5292; color:#fff}
+.btnAllPop:before {position:relative; font-style:normal; font-variant:normal; font-weight:normal; text-transform:none; line-height:1; speak:none; -webkit-font-smoothing:antialiased}
+.btnAllPop:after {position:absolute; z-index:-1; content:''; transition:all 0.3s; -webkit-transition:all 0.3s; -moz-transition:all 0.3s}
+.btnAllPop span{color:#fff}
+.btnAllPop:hover, .btnAllPop:focus, .btnAllPop:active {background-color:#064996; border-color:#073a75}
+
